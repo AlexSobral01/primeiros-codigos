@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin: 2%;
+}
+fieldset {
+    border-radius: 3%;
+    padding: 2%;
+    border-color: deeppink;
+}
+input {
+    font-size: 0.7em;
+    margin: 2px;
+}
+h2 {
+    text-align: center;
+}
+.fotoBiscoito01 {
+    width: 15em;
+}
+div {
+    background-color: maroon;
+    width: 15em;
+    padding: 1%;
+}
+.foto_biscoto , p {
+    color: white;
+    text-align: center;
+}
+.foto_biscoto , button {
+    text-align: center;
+    width: 18em;
+    height: 2em;
+}

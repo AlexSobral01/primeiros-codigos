@@ -19,6 +19,7 @@ function pause() {
 function stop(){
     clearInterval(interval);
     document.getElementById('timer').innerText='00:00:00';
+    working=false
     sec=0
     min=0
     hr=0

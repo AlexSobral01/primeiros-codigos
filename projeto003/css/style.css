@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(to bottom,rgb(41, 8, 133),rgb(103, 3, 103));
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.logo {
+    height: 50px;
+    color: white;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.link-item {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+}
+.link-item:hover {
+    color: blue;
+    transition: 0.4s;
+}
+.primeira-sessao {
+    display: flex;
+}
+.women-foto {
+    width: 100vh;
+    margin-top: 30px;
+}
+.primeira-sessao {
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+.primeira-sessao-texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-left: 18vh;
+    position: relative;
+    height: 68vh;
+}
+.primeira-sessao-titulo01 {
+    color: rgb(158, 76, 90);
+    font-size: 5vh;
+}
+.primeira-sessao-titulo02 {
+    color: white;
+    font-size: 5vh
+}
+.primeira-sessao-paragrafo01 {
+    color: white;
+    margin-top: 20px;
+}
+.primeira-sessao-botao-entrar {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    right: 35%;
+}
+.primeira-sessao-botao-entrar:hover {
+    color: white;
+    background-color: rgb(84, 3, 84);
+    transition: 0.2s;
+}
+footer {
+    
+}
